@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Login;
+    src: url("/fonts/Login.ttf");
+}
+
+body {
+
+    overflow: hidden;
+
+}
+
+.contenedor-global{
+
+    background: url("/images/index-back.jpg");
+    background-size: cover;
+    width: 100vw !important;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+
+#inicio{
+    position: relative;
+    top: 0%;
+}
+
+#login-form{
+    position: relative;
+    top: 100%;
+}
+
+.desapareceTop{
+    top: -100% !important;
+    transition: all 1s;
+}
+
+.aparece{
+    top: -20% !important;
+    transition: all 1s;
+}
+
+.contenedor-global div{
+    width: 100%;
+}
+
+.btn-login{
+    background-color: rgb(209, 110, 18);
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    color: white;
+    transition: all 0.5s;
+}
+
+.btn-login > span{
+    font-family: Login;
+    font-size: 20px;
+}
+
+a:hover{
+    text-decoration: none !important;
+}
+
+.btn-login:hover{
+    background-color: rgb(255, 123, 0);
+    transition: all 0.5s;
+}
