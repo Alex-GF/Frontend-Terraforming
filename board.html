@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,9 +8,9 @@
     <title>Terraforming Mars</title>
 </head>
 <body>
-    <div class="espacio container-fluid d-flex flex-column justify-content-center" id="background">
-        <div class="fobos col-auto" id="fobos">
-            <div class="marte col-auto" id="marte"></div>
+    <div class="space container-fluid d-flex flex-column justify-content-center" id="background">
+        <div class="phobos col-auto" id="phobos">
+            <div class="mars col-auto" id="mars"></div>
         </div> 
         <div class="ganimedes col-auto" id="ganimedes" style="width:25%"></div>
     </div>
@@ -18,15 +18,15 @@
 
     <script>
     let space = document.querySelector("#background");
-    let fobos = document.querySelector("#fobos");
+    let phobos = document.querySelector("#phobos");
     let ganimedes = document.querySelector("#ganimedes");
     
     space.addEventListener("mousemove", (movement) => { 
         space.style.backgroundPositionX = -movement.screenX/15 + "px";
         space.style.backgroundPositionY = -movement.screenY/15 + "px";
         
-        fobos.style.backgroundPositionX = movement.screenX/5 + "px";
-        fobos.style.backgroundPositionY = movement.screenY/20 + "px";
+        phobos.style.backgroundPositionX = movement.screenX/5 + "px";
+        phobos.style.backgroundPositionY = movement.screenY/20 + "px";
 
         ganimedes.style.backgroundPositionX = movement.screenX/10 + "px";
         ganimedes.style.backgroundPositionY = movement.screenY/20 + "px"; 

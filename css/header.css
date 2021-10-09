@@ -1,0 +1,30 @@
+.class-search {
+    float: left;
+    background-color:transparent;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.class-search::placeholder{
+    color:#FFFFFF;
+    opacity:1
+}
+
+.input-icono {
+    background-image: url("../images/lens.png");
+    background-repeat: no-repeat;
+    background-position: 4px center;
+    background-size: 20px;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    padding-left: 28px;
+    height: 30px;
+}
+
+.btn-secondary {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
