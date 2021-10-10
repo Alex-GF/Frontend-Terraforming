@@ -5,7 +5,7 @@ import {validarFormulario} from '/js/validators/form.js';
 function main(){
 
     const loginBtnInicio = document.querySelector('#login1');
-    const inicioDiv = document.querySelector('#inicio');
+    const inicioDiv = document.querySelector('#start');
     const loginFormDiv = document.querySelector('#login-form');
     const inputs = document.querySelectorAll('.form-control');
     const loginBtnSubmit = document.querySelector('#loginBtnSubmit');
