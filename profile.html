@@ -19,15 +19,40 @@
 
 </head>
 <body>
+    <div id="page-header"></div>
     <div class="container-fluid d-flex flex-column align-items-center" id="global">
+
         <div class="row user-row">
             <img src="/images/default-user.png" alt="Foto Usuario">
         </div>
-        <div class="row achievements-row">
-            
+
+        <div class="row global-score-row d-flex justify-content-between">
+            <div class="my-score">223</div>
+            <div class="bar"></div>
+            <div class="global-position">
+                <img src="/images/copa.png" alt="Global Rank" class="trophy-icon">
+                <span style="padding: 0px 10px;">24</span>
+            </div>
         </div>
+
+        <div class="row achievements-row d-flex justify-content-between">
+            <img src="/images/logro.png" alt="Nombre Logro" class="achievement">
+            <img src="/images/logro.png" alt="Nombre Logro" class="achievement">
+            <img src="/images/logro.png" alt="Nombre Logro" class="achievement">
+        </div>
+
+        <div class="row friend-request-row d-flex justify-content-center align-items-center">
+            <button class="friend-request-btn">MANDAR SOLICITUD</button>
+        </div>
+        
+        <div class="row"></div>
+        <div class="row"></div>
         <div class="row"></div>
         <div class="row"></div>
     </div>
+
+    <script>
+        include("/header.html", "#page-header");
+    </script>
 </body>
 </html>
