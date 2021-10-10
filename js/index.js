@@ -4,12 +4,20 @@ import {validarFormulario} from '/js/validators/form.js';
 
 function main(){
 
-    const loginBtnInicio = document.querySelector('#login1');
+    //-------------------------------- Trackeos --------------------------------
+
+    const loginBtnInicio = document.querySelector('#login');
+    const registerBtnInicio = document.querySelector('#register');
     const inicioDiv = document.querySelector('#start');
     const loginFormDiv = document.querySelector('#login-form');
+    const registerFormDiv = document.querySelector('#register-form');
     const inputs = document.querySelectorAll('.form-control');
     const loginBtnSubmit = document.querySelector('#loginBtnSubmit');
+
+    const arrow = document.querySelector('.arrow img');
     
+    //--------------------------------------------------------------------------
+
     inputs.forEach((input) => {
 
         input.addEventListener('keyup', validarFormulario);
@@ -21,6 +29,30 @@ function main(){
 
         inicioDiv.classList.add('desapareceTop');
         loginFormDiv.classList.add('aparece');
+        arrow.style.display = 'block';
+        setTimeout(() => {
+            arrow.classList.add("arrow-appears");
+        }, 1000);
+
+    };
+
+    registerBtnInicio.onclick = (event) => {
+
+        inicioDiv.classList.add('desapareceTop');
+        registerFormDiv.classList.add('aparece');
+        arrow.style.display = 'block';
+        setTimeout(() => {
+            arrow.classList.add("arrow-appears");
+        }, 1000);
+
+    };
+
+    arrow.onclick = (event) => {
+
+        inicioDiv.classList.remove('desapareceTop');
+        loginFormDiv.classList.remove('aparece');
+        registerFormDiv.classList.remove('aparece');
+        arrow.classList.remove('arrow-appears');
 
     };
 

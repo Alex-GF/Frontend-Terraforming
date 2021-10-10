@@ -94,22 +94,6 @@ const validarFormulario = (e) => {
 
             break;
 
-        case "numero-invitados":
-
-            if(e.target.value > 0){ 
-                
-                document.getElementById("num-inv-input").classList.remove('incorrecto');
-                document.getElementById("num-inv-input").classList.add('correcto');
-
-            }else{
-
-                document.getElementById("num-inv-input").classList.remove('correcto');
-                document.getElementById("num-inv-input").classList.add('incorrecto');
-
-            }
-
-            break;
-
     }
 }
 
