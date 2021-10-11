@@ -2,21 +2,21 @@
 
 import {validarFormulario} from '/js/validators/form.js';
 
+//-------------------------------- Trackeos --------------------------------
+
+const loginBtnInicio = document.querySelector('#login');
+const registerBtnInicio = document.querySelector('#register');
+const inicioDiv = document.querySelector('#start');
+const loginFormDiv = document.querySelector('#login-form');
+const registerFormDiv = document.querySelector('#register-form');
+const inputs = document.querySelectorAll('.form-control');
+const loginBtnSubmit = document.querySelector('#loginBtnSubmit');
+
+const arrow = document.querySelector('.arrow img');
+
+//--------------------------------------------------------------------------
+
 function main(){
-
-    //-------------------------------- Trackeos --------------------------------
-
-    const loginBtnInicio = document.querySelector('#login');
-    const registerBtnInicio = document.querySelector('#register');
-    const inicioDiv = document.querySelector('#start');
-    const loginFormDiv = document.querySelector('#login-form');
-    const registerFormDiv = document.querySelector('#register-form');
-    const inputs = document.querySelectorAll('.form-control');
-    const loginBtnSubmit = document.querySelector('#loginBtnSubmit');
-
-    const arrow = document.querySelector('.arrow img');
-    
-    //--------------------------------------------------------------------------
 
     inputs.forEach((input) => {
 
@@ -25,36 +25,11 @@ function main(){
 
     });
 
-    loginBtnInicio.onclick = (event) => {
+    loginBtnInicio.onclick = loginClickHandler;
 
-        inicioDiv.classList.add('desapareceTop');
-        loginFormDiv.classList.add('aparece');
-        arrow.style.display = 'block';
-        setTimeout(() => {
-            arrow.classList.add("arrow-appears");
-        }, 1000);
+    registerBtnInicio.onclick = registerClickHandler;
 
-    };
-
-    registerBtnInicio.onclick = (event) => {
-
-        inicioDiv.classList.add('desapareceTop');
-        registerFormDiv.classList.add('aparece');
-        arrow.style.display = 'block';
-        setTimeout(() => {
-            arrow.classList.add("arrow-appears");
-        }, 1000);
-
-    };
-
-    arrow.onclick = (event) => {
-
-        inicioDiv.classList.remove('desapareceTop');
-        loginFormDiv.classList.remove('aparece');
-        registerFormDiv.classList.remove('aparece');
-        arrow.classList.remove('arrow-appears');
-
-    };
+    arrow.onclick = arrowClickHandler;
 
     loginBtnSubmit.onclick = (event) => {
 
@@ -68,6 +43,37 @@ function main(){
         }
 
     }
+
+}
+
+function loginClickHandler(event) {
+
+    inicioDiv.classList.add('desapareceTop');
+        loginFormDiv.classList.add('aparece');
+        arrow.style.display = 'block';
+        setTimeout(() => {
+            arrow.classList.add("arrow-appears");
+        }, 1000);
+
+}
+
+function registerClickHandler(event){
+
+    inicioDiv.classList.add('desapareceTop');
+        registerFormDiv.classList.add('aparece');
+        arrow.style.display = 'block';
+        setTimeout(() => {
+            arrow.classList.add("arrow-appears");
+        }, 1000);
+
+}
+
+function arrowClickHandler(event){
+
+    inicioDiv.classList.remove('desapareceTop');
+    loginFormDiv.classList.remove('aparece');
+    registerFormDiv.classList.remove('aparece');
+    arrow.classList.remove('arrow-appears');
 
 }
 
