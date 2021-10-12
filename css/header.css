@@ -5,6 +5,7 @@
     font-size: 18px;
     color: #FFFFFF;
     border: none;
+    outline: none;
 }
 
 .class-search::placeholder {
@@ -14,16 +15,20 @@
 
 .input-icono {
     background-image: url("../images/lens.png");
-    background-repeat: no-repeat;
-    background-position: 4px center;
-    background-size: 20px;
+    background-repeat: no-repeat !important;
+    background-position: 4px center !important;
+    background-size: 20px !important;
     display: flex;
     align-items: center;
     width: auto;
-    max-width: 207px;
     padding-left: 28px;
     height: auto;
     max-height: 30px;
+}
+
+#header-search:focus {
+    background-image: url("../images/lens-edited.png") !important;
+    font-weight: bold !important;
 }
 
 .btn-secondary {
@@ -48,9 +53,9 @@
 
 .button-icon-profile {
     background-image: url("../images/profile-pic.png");
-    background-repeat: no-repeat;
-    background-position: 5px center;
-    background-size: 30px;
+    background-repeat: no-repeat !important;
+    background-position: 5px center !important;
+    background-size: 30px !important;
     display: flex;
     align-items: center;
     padding-left: 40px;
@@ -58,9 +63,9 @@
 
 .button-icon-logout {
     background-image: url("../images/log-out.png");
-    background-repeat: no-repeat;
-    background-position: 10px center;
-    background-size: 25px;
+    background-repeat: no-repeat !important;
+    background-position: 10px center !important;
+    background-size: 25px !important;
     display: flex;
     align-items: center;
     padding-left: 40px;
@@ -85,5 +90,34 @@
     border-radius: 50%;
     width:35px;
     height:35px;
-    border: 1.5px solid #FFFFFF;
+    border: 1.25px solid #FFFFFF;
+}
+
+.dropdown-toggle {
+    white-space: nowrap;
+    font-size: larger;
+}
+
+.dropdown-toggle:hover {
+    font-size: x-large;
+}
+
+.dropdown-toggle:focus {
+    font-size: x-large;
+}
+
+.class-header-profile {
+    font-size: 20px;
+}
+
+#header-username:hover #header-usernamePic{
+    border: 2.5px solid #FFFFFF;
+}
+
+#header-username:focus #header-usernamePic{
+    border: 2.5px solid #FFFFFF;
+}
+
+#header-username:focus{
+    font-weight: bold !important;
 }
