@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    overflow: hidden;
+}
+
+#background {
+    background: url("../internal-images/space.jpg");
+    background-size: cover;
+    width: 150vw;
+    height: 150vh;
+    display: flex;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.mars{
+    background: url("../internal-images/mars.png");
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.phobos{
+    background: url("../internal-images/phobos.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.ganimedes{
+    background: url("../internal-images/ganimedes.png");
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
