@@ -21,7 +21,7 @@ const BuscarUsuarios = () => {
 
         <div className="col-auto" id="buscUser">
             <form className="form-inline float-left my-2 my-lg-0 justify-content-xl-center" id="searchForm">
-                <input id="header-search" ref={headerSearch} className="className-search input-icono" name="search" list="searchDatalist" type="Search"
+                <input id="header-search" ref={headerSearch} className="class-search input-icono" name="search" list="searchDatalist" type="Search"
                     placeholder="Buscar usuarios" title=" Busca por usuarios" required />
                 <datalist id="searchDatalist"></datalist>
             </form>
