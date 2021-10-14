@@ -49,6 +49,8 @@
 
 .class-dropdown-profile:focus {
     outline: none;
+    box-shadow: 0 0 0 0.2rem transparent !important;
+
 }
 
 .button-icon-profile {
@@ -61,6 +63,11 @@
     padding-left: 40px;
 }
 
+.button-icon-profile:hover {
+    background-image: url("../internal-images/profile-pic-edited.png");
+    font-weight: bold;
+}
+
 .button-icon-logout {
     background-image: url("../internal-images/log-out.png");
     background-repeat: no-repeat !important;
@@ -69,6 +76,11 @@
     display: flex;
     align-items: center;
     padding-left: 40px;
+}
+
+.button-icon-logout:hover {
+    background-image: url("../internal-images/log-out-edited.png");
+    font-weight: bold;
 }
 
 .dropdown-item {

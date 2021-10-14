@@ -16,11 +16,14 @@ function App() {
   return (
     <Router>
       <Switch>
+
         <Route path="/board">
           <Header/>
           <Board/>
         </Route>
+
         <Route path="/"><Index/></Route>
+        
       </Switch>
     </Router>
   );
