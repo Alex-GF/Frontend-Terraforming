@@ -30,7 +30,7 @@ const BuscarPartida = () => {
             <div className="row justify-content-xl-center">
                 <button className="btn btn-secondary" title="Crea una nueva partida"><img id="header-new" ref={headerNew} src="images/new.png"
                     alt="Create a new game pic" width="auto" height="35px" /></button>
-                <Link to="/" id="header-complete-logo"><img id="header-logo" ref={headerLogo} src="images/logo.png" alt="Logo pic" width="auto" height="50px" /></Link>
+                <Link to="/welcome" id="header-complete-logo"><img id="header-logo" ref={headerLogo} src="images/logo.png" alt="Logo pic" width="auto" height="50px" /></Link>
                 <button className="btn btn-secondary" title="Únete a una partida online"><img id="header-online" ref={headerOnline} src="images/online.png"
                     alt="Online game mode pic" width="auto" height="35px" /></button>
             </div>

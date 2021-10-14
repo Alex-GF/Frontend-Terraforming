@@ -11,18 +11,18 @@
 
 @font-face {
     font-family: Login;
-    src: url("/fonts/Login.ttf");
+    src: url("../fonts/Login.ttf");
 }
 
 /*Estilos linea foto perfil usuario*/
 
 .user-row{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .user-row img{
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 250px;
+    max-height: 250px;
     border: solid white 5px;
     border-radius: 50%;
 }
@@ -35,10 +35,15 @@
     font-size: 30px;
     font-weight: bold;
     height: 50px;
-    width: 10%;
+    width: 100%;
+    max-width: 200px;
 
     margin: 40px 0px;
 
+}
+
+#personal-rank{
+    padding: 0px 10px;
 }
 
 .bar{
@@ -54,14 +59,15 @@
 
 .achievements-row{
 
-    width: 20%;
+    width: 100%;
+    max-width: 300px;
 
 }
 
 .achievement{
 
-    height: 100px;
-    width: 100px;
+    height: 75px;
+    width: 75px;
 
 }
 
@@ -69,7 +75,8 @@
 
 .friend-request-row{
 
-    width: 20%;
+    width: 100%;
+    max-width: 300px;
 }
 
 .friend-request-btn{
