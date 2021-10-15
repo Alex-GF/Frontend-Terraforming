@@ -1,0 +1,17 @@
+.correcto{
+    border: solid rgb(6, 226, 6) !important;
+}
+
+.incorrecto{
+    border: solid red !important;
+}
+
+#registro{
+    color: rgb(224, 224, 224) !important;
+    text-decoration: underline;
+}
+
+#texto-politicas{
+    color:white;
+    font-size: 12px;
+}

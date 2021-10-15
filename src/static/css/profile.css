@@ -1,0 +1,188 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: scroll !important;
+        overflow-y: scroll !important;
+    }
+}
+
+#stats-container{
+    width: 50vw;
+    height: 70vh;
+    overflow-y: visible;
+    overflow-x: hidden;
+    margin-top: 30px;
+}
+
+#stats-container::-webkit-scrollbar {display: none;}
+
+
+#global{
+    background-color: rgb(80, 80, 80);
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    font-family: Login;
+    src: url("../fonts/Login.ttf");
+}
+
+/*Estilos linea foto perfil usuario*/
+
+.user-row{
+    padding-top: 50px;
+}
+
+.user-row img{
+    max-width: 250px;
+    max-height: 250px;
+    border: solid white 5px;
+    border-radius: 50%;
+}
+
+/*Estilos linea possición ranking*/
+
+.global-score-row{
+
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    height: 50px;
+    width: 100%;
+    max-width: 200px;
+
+    margin: 40px 0px;
+
+}
+
+#personal-rank{
+    padding: 0px 10px;
+}
+
+.bar{
+    border: solid 2px white;
+}
+
+.trophy-icon{
+    width: 40px;
+    height: 40px;
+}
+
+/*Estilos linea logros*/
+
+.achievements-row{
+
+    width: 100%;
+    max-width: 300px;
+
+}
+
+.achievement{
+
+    height: 75px;
+    width: 75px;
+
+}
+
+/*Estilo botón mandar solicitudes*/
+
+.friend-request-row{
+
+    width: 100%;
+    max-width: 300px;
+}
+
+.friend-request-btn{
+    border: none;
+
+    color: white;
+    font-weight: bold;
+    font-family: Login;
+    font-size: 40px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: rgb(209, 110, 18);
+
+    padding: 20px 0px;
+    margin: 40px 0px;
+}
+
+.friend-request-btn:hover{
+    
+    background-color: rgb(255, 123, 0);
+    transition: all 0.5s;
+}
+
+/*Estilos estadística*/
+
+.stats-title{
+    color: white;
+    text-decoration: underline;
+    font-family: Login;
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.stat-name{
+    color: white;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.stat{
+    color: rgb(209, 110, 18);;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#star{
+    
+    max-height: 200px;
+    max-width: 200px;
+    background-image: url("../internal-images/star.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#winrate{
+    padding: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.carta-fav{
+
+    font-size: 20px !important;
+
+}
+
+#records-row{
+
+    margin-top: 30px;
+
+}
+
+.record{
+    height: 50px;
+    width: 50px;
+
+    margin: 0px 20px;
+}
+
+#record-value{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
