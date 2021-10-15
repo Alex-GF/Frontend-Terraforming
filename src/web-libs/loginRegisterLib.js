@@ -23,13 +23,24 @@ const registerClickHandler = (e) => {
     let registerFormDiv = document.querySelector('#register-form');
     let arrow = document.querySelector('.arrow img');
     inicioDiv.classList.add('desapareceTop');
-    registerFormDiv.classList.add('aparece');
+    registerFormDiv.classList.add('aparece-register');
     arrow.style.display = 'block';
     setTimeout(() => {
         arrow.classList.add("arrow-appears");
     }, 1000);
 
 }
+
+const registerLoginClickHandler = (e) => {
+    e.preventDefault();
+
+    let registerFormDiv = document.querySelector('#register-form');
+    let loginFormDiv = document.querySelector('#login-form');
+    loginFormDiv.classList.remove("aparece");
+    loginFormDiv.classList.add('desapareceTop');
+    registerFormDiv.classList.add('aparece-register');
+
+};
 
 const arrowClickHandler = (e) => {
 
@@ -41,9 +52,9 @@ const arrowClickHandler = (e) => {
     let arrow = document.querySelector('.arrow img');
     inicioDiv.classList.remove('desapareceTop');
     loginFormDiv.classList.remove('aparece');
-    registerFormDiv.classList.remove('aparece');
+    registerFormDiv.classList.remove('aparece-register');
     arrow.classList.remove('arrow-appears');
 
 }
 
-export {loginClickHandler, registerClickHandler, arrowClickHandler};
+export {loginClickHandler, registerClickHandler, registerLoginClickHandler, arrowClickHandler};

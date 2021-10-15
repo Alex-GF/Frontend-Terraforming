@@ -13,9 +13,9 @@ const WinRate = () => {
                     <p className="stat">31</p>
                 </div>
             </div>
-            <div className="row">
-                <div id="star">
-                    
+            <div className="row d-flex justify-content-center">
+                <div className="d-flex justify-content-center align-items-center" id="star">
+                    <span id="winrate">47.4%</span>
                 </div>
             </div>
         </>

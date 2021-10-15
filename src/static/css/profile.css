@@ -3,10 +3,19 @@
     padding: 0px;
 }
 
+@media screen and (max-width: 768px) {
+    body{
+        overflow-x: scroll !important;
+        overflow-y: scroll !important;
+    }
+}
+
 #stats-container{
-    width: 100%;
-    height: 100%;
-    overflow: scroll;
+    width: 50vw;
+    height: 70vh;
+    overflow-y: visible;
+    overflow-x: hidden;
+    margin-top: 30px;
 }
 
 #stats-container::-webkit-scrollbar {display: none;}
@@ -124,7 +133,7 @@
     color: white;
     text-decoration: underline;
     font-size: 25px;
-    margin-top: 30px;
+    margin-top: 10px;
     text-align: center;
 }
 
@@ -137,10 +146,43 @@
 }
 
 #star{
-    height: 100%;
-    width: 100%;
+    
     max-height: 200px;
     max-width: 200px;
     background-image: url("../internal-images/star.png");
-    background-size: contain;
+    background-size: cover;
+    background-position: center;
+}
+
+#winrate{
+    padding: 80px;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+
+.carta-fav{
+
+    font-size: 20px !important;
+
+}
+
+#records-row{
+
+    margin-top: 30px;
+
+}
+
+.record{
+    height: 50px;
+    width: 50px;
+
+    margin: 0px 20px;
+}
+
+#record-value{
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
 }

@@ -1,5 +1,6 @@
-import {useEffect} from 'react';
-import {validarFormulario} from '../../web-libs/validators/form.js';
+import { useEffect} from 'react';
+import { validarFormulario } from '../../web-libs/validators/form.js';
+import {registerLoginClickHandler} from "../../web-libs/loginRegisterLib.js";
 
 const LoginForm = () => {
 
@@ -8,9 +9,9 @@ const LoginForm = () => {
 
         inputs.forEach((input) => {
 
-        input.addEventListener('keyup', validarFormulario);
-        input.addEventListener('blur', validarFormulario);
-        
+            input.addEventListener('keyup', validarFormulario);
+            input.addEventListener('blur', validarFormulario);
+
         });
 
     }, []);
@@ -40,7 +41,7 @@ const LoginForm = () => {
                             <div className="col-2"></div>
                             <div className="col-8 col-texto">
                                 <span>¿No tienes una cuenta? </span><a href="/"
-                                    id="registro">Regístrate</a>
+                                    id="registro" onClick={registerLoginClickHandler}>Regístrate</a>
                             </div>
                             <div className="col-2"></div>
                         </div>

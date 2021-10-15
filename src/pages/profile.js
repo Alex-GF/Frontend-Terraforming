@@ -3,6 +3,8 @@ import GlobalPunc from "../components/profile/globalPunc";
 import Achievements from "../components/profile/achievements";
 import FriendRequest from "../components/profile/friendRequest";
 import WinRate from "../components/profile/winRate";
+import Favourites from "../components/profile/favourites";
+import Records from "../components/profile/records";
 
 import "../static/css/profile.css";
 
@@ -24,6 +26,8 @@ const Profile = () => {
                     <span className="stats-title">ESTADÍSTICAS DE JUGADOR</span>
                     <div id="stats-container">
                         <WinRate/>
+                        <Favourites/>
+                        <Records/>
                     </div>
                 </div>
                 

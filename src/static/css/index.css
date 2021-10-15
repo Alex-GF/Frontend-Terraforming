@@ -104,6 +104,11 @@ a:hover{
     transition: all 1s;
 }
 
+.aparece-register{
+    top: 25% !important;
+    transition: all 1s;
+}
+
 .arrow-appears{
     opacity: 1 !important;
     transition: all 1s;
