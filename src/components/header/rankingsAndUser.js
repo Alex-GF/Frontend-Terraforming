@@ -66,9 +66,9 @@ const RankingsAndUser = () => {
 
                         <Dropdown.Menu>
 
-                            <Dropdown.Item><Link className="dropdown-item button-icon-profile" to="/profile">Perfil</Link></Dropdown.Item>
+                            <Dropdown.Item className="dropdown-item2 button-icon-profile"><Link className="dropdown-item" to="/profile">Perfil</Link></Dropdown.Item>
                             <Dropdown.Divider></Dropdown.Divider>
-                            <Dropdown.Item><Link className="dropdown-item button-icon-logout" to="/profile">Cerrar Sesión</Link></Dropdown.Item>
+                            <Dropdown.Item className="dropdown-item2 button-icon-logout" ><Link className="dropdown-item" to="/profile">Cerrar Sesión</Link></Dropdown.Item>
 
                         </Dropdown.Menu>
 
