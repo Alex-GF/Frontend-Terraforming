@@ -3,11 +3,10 @@ import Index from "./pages/index";
 import Board from "./pages/board";
 import Header from "./sections/header";
 import Profile from "./pages/profile";
-//import Welcome from "./pages/welcome";
+import Welcome from "./pages/welcome";
 //import Ranking from "./pages/ranking";
 
 import {
-
   BrowserRouter as Router,
   Switch,
   Route
@@ -22,7 +21,7 @@ function App() {
 
         <Route path="/welcome">
           <Header/>
-          {/*<Welcome/>*/}
+          <Welcome/>
         </Route>
         
         <Route path="/ranking">
@@ -40,7 +39,9 @@ function App() {
           <Profile/>
         </Route>
 
-        <Route path="/"><Index/></Route>
+        <Route path="/">
+          <Index/>
+        </Route>
         
       </Switch>
     </Router>
