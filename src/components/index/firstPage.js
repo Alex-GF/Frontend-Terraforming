@@ -15,13 +15,13 @@ const FirstPage = () => {
                 <div className="col-2">
                     <a href="/" onClick={loginClickHandler}>
                         <div className="btn-login" id="login">
-                            <span>Login</span>
+                            <span>Inicia sesión</span>
                         </div>
                     </a>
 
                     <a href="/">
                         <div className="btn-login" id="register" onClick={registerClickHandler}>
-                            <span>Register</span>
+                            <span>Regístrate</span>
                         </div>
                     </a>
 

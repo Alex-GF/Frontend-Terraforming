@@ -8,11 +8,11 @@ const BuscarUsuarios = () => {
     
     useEffect(() => {
         headerSearch.current.addEventListener('mouseover', function(){
-            this.style.background = "url('../images/lens-edited.png'";
+            this.style.background = "url('../images/lens-edited.png')";
             this.style.fontWeight = "bold";
         }, false);
         headerSearch.current.addEventListener('mouseout', function(){
-            this.style.background = "url('../images/lens.png'";
+            this.style.background = "url('../images/lens.png')";
             this.style.fontWeight = "normal";
         }, false);
     }, [])

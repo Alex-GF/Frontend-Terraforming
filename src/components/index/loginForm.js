@@ -25,14 +25,14 @@ const LoginForm = () => {
                     <div className="col-md-4 col-8">
                         <div className="row">
 
-                            <input type="text" className="form-control" id="usuario-input-login" name="usuario" placeholder="Usuario"
+                            <input type="text" className="form-control" id="usuario-input-login" name="usuario" placeholder="Usuario" title="Escriba su nombre de usuario"
                                 required />
 
                         </div>
 
                         <div className="row mt-3">
 
-                            <input type="password" className="form-control" id="password-input-login" name="password" placeholder="Contraseña"
+                            <input type="password" className="form-control" id="password-input-login" name="password" placeholder="Contraseña" title="Escriba su contraseña"
                                 required />
 
                         </div>
@@ -50,7 +50,7 @@ const LoginForm = () => {
                             <div className="col-3"></div>
                             <div className="col-6">
                                 <a href="/">
-                                    <div className="btn-login" id="loginBtnSubmit"><span>Login</span></div>
+                                    <div className="btn-login" id="loginBtnSubmit"><span>Inicia sesión</span></div>
                                 </a>
                             </div>
                             <div className="col-3"></div>

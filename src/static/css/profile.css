@@ -24,7 +24,7 @@
 #global{
     background-color: rgb(80, 80, 80);
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 @font-face {
@@ -146,12 +146,16 @@
 }
 
 #star{
-    
-    max-height: 200px;
-    max-width: 200px;
+    height: 250px;
+    width: 250px;
     background-image: url("../internal-images/star.png");
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background-repeat: no-repeat;
+}
+
+#star:hover{
+    background-image: url("../internal-images/star-edited.png");
 }
 
 #winrate{

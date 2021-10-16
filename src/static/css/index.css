@@ -113,3 +113,12 @@ a:hover{
     opacity: 1 !important;
     transition: all 1s;
 }
+
+/* Esta clase era una de las que se usaban para el botón de ocultar/mostrar contraseña en el input en mi proyecto de IISSI 2.
+En concreto la utilicé para la colocación del botón dentro del input*/
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    position: relative;
+    z-index: 2;
+}
