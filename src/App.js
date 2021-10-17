@@ -4,7 +4,7 @@ import Board from "./pages/board";
 import Header from "./sections/header";
 import Profile from "./pages/profile";
 import Welcome from "./pages/welcome";
-//import Ranking from "./pages/ranking";
+import Rankings from "./pages/rankings";
 
 import {
   BrowserRouter as Router,
@@ -26,7 +26,7 @@ function App() {
         
         <Route path="/ranking">
           <Header/>
-          {/*<Ranking/>*/}
+          <Rankings/>
         </Route>
 
         <Route path="/board">
