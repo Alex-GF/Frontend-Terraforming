@@ -24,6 +24,8 @@
     border-radius: 15px;
 }
 
+.class-ranking-box::-webkit-scrollbar {display: none;}
+
 .class-ranking-header{
     background-color: #1f2224;   
     max-width: 100vw;

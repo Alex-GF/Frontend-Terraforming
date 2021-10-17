@@ -1,7 +1,7 @@
 const PublicRooms = () => {
     return(
         <>
-            <div className="row justify-content-center align-items-center">
+            <div className="row justify-content-center align-items-center mb-3">
                 <div className="col-md-3 class-publicRooms-title">
                     <strong>HOST</strong>
                 </div>
