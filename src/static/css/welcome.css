@@ -24,6 +24,8 @@
     border-radius: 15px;
 }
 
+.class-publicRooms-box::-webkit-scrollbar {display: none;}
+
 #modal-online-body .class-publicRooms-box{
     width: 90%
 }
