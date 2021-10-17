@@ -1,7 +1,7 @@
 import "../static/css/header.css";
 
-import BuscarUsuarios from "../components/header/buscarUsuarios";
-import BuscarPartida from "../components/header/buscarPartida";
+import SearchUsers from "../components/header/searchUsers";
+import SearchGame from "../components/header/searchGame";
 import RankingsAndUser from "../components/header/rankingsAndUser";
 
 const Header = () => {
@@ -17,8 +17,8 @@ const Header = () => {
                         <span className="navbar-toggler-icon"></span>
                     </button>
                     <div className="collapse navbar-collapse" id="navbarScroll">
-                        <BuscarUsuarios/>
-                        <BuscarPartida/>
+                        <SearchUsers/>
+                        <SearchGame/>
                         <RankingsAndUser/>
                     </div>
                 </div>

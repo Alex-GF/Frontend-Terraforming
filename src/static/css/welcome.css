@@ -24,6 +24,10 @@
     border-radius: 15px;
 }
 
+#modal-online-body .class-publicRooms-box{
+    width: 90%
+}
+
 .class-publicRooms-row{
     max-width: auto;
     background-color: #343a40;
@@ -111,4 +115,26 @@
 
 .class-pretty-margin2{
     height: 2.5vh;
+}
+
+@media screen and (max-width: 500px) {
+    .class-privateRoom-input{
+        min-width:auto;
+    }
+}
+
+#modal-online-body{
+    border-bottom: 1px solid #FFFFFF;
+}
+
+#modal-online .modal-content{
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+#modal-online .class-privateRoom-input{
+    height: 4vh;
+}
+
+#modal-online-button .class-publicRooms-button{
+    min-height: 4vh;
 }

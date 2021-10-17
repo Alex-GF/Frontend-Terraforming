@@ -9,10 +9,10 @@ const PublicRooms = () => {
                     <strong>JUGADORES</strong>
                 </div>
                 <div className="col-md-3 class-publicRooms-title">
-                    <strong>ÚNETE</strong>
+                    <strong>ENLACE</strong>
                 </div>
             </div>
-            <div className="row align-items-center">
+            <div className="row justify-content-center align-items-center">
                 <div className="col-auto class-publicRooms-box">
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-host">
@@ -22,7 +22,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
 
@@ -35,7 +35,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -46,7 +46,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -57,7 +57,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -68,7 +68,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -79,7 +79,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -90,7 +90,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -101,7 +101,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -112,7 +112,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -123,7 +123,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -134,7 +134,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -145,7 +145,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                     <div className="row justify-content-center align-items-center class-publicRooms-row">
@@ -156,7 +156,7 @@ const PublicRooms = () => {
                             <span>1/6</span>
                         </div>
                         <div className="col-md-3 class-publicRooms-item class-publicRooms-join">
-                            <button className="btn btn-primary class-publicRooms-button">ÚNETE</button>
+                            <button className="btn btn-primary class-publicRooms-button">UNIRSE</button>
                         </div>
                     </div>
                 </div>
