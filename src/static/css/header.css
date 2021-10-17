@@ -93,6 +93,7 @@
 }
 
 .dropdown-item:hover{
+    font-weight: bold;
     background-color: transparent !important;
 }
 

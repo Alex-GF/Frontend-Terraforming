@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#modal-new .modal-content{
+    background-color: rgb(255, 255, 255, 0.8);
+}
+
+#modal-new-body{
+    color: #000000;
+}
+
+.class-btn-right{ 
+    border-left: 20px solid rgb(209, 110, 18);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    background: none;
+    outline: none;
+    background-repeat: no-repeat;
+    border-right: none;
+}
+
+.class-btn-right:hover{
+    border-left-color: rgb(255, 123, 0);
+}
+
+.class-btn-left{
+    border-right: 20px solid rgb(209, 110, 18);
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    background: none;
+    outline: none;
+    background-repeat: no-repeat;
+    border-left: none;
+}
+
+.class-btn-left:hover{
+    border-right-color: rgb(255, 123, 0);
+}
+
+.class-value{
+    padding-left: 1vw;
+    padding-right: 1vw;
+}
+
+.class-pretty-padding{
+    padding-top: 1vh;
+}
+
+.class-pretty-padding2{
+    padding-top: 2vh;
+}
