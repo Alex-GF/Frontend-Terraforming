@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.class-ranking-type{
+    background-color: rgba(255,255,255,0.5);
+    width: auto;
+    height: auto;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    border-bottom: 1px solid #8492A6;
+    border-radius: 5px;
+}
+
+.class-ranking-box{
+    background-color: #343a40;
+    
+    max-width: 100vw;
+    max-height: 50vh;
+    overflow: scroll;
+    margin-left: 1.5%;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.class-ranking-header{
+    background-color: #1f2224;   
+    max-width: 100vw;
+    max-height: 50vh;
+    margin-left: 1.5%;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.class-ranking-personal{
+    background-color: #e2c339cb;   
+    max-width: 100vw;
+    max-height: 50vh;
+    margin-left: 1.5%;
+    border: 1px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+.class-ranking-row{
+    max-width: auto;
+    background-color: #343a40;
+    opacity: 0.5;
+    height: 5vh;
+    min-height: 50px;
+    margin-left: 0.1%;
+    border-bottom: 1px solid #FFFFFF;
+}
+
+.class-ranking-item{
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.class-ranking-host{
+    margin-right: 0.5%;
+}
+
+.class-ranking-players{
+    margin-right: 1%;
+}
+
+.class-ranking-button{
+    background-color: rgb(173, 175, 22);
+    border: none;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 15px;
+}
+
+.class-ranking-join{
+    margin-right: 2%;
+    padding-right: 2.5%;
+}
+
+#white{
+    color: rgb(224, 224, 224) !important;
+   
+}
+
+
+#white-big{
+    color: rgb(224, 224, 224) !important;
+    font-size: 21px;
+}
+
+#white-ultrabig{
+    color: rgb(224, 224, 224) !important;
+    font-size: 30px;
+}
+
+.class-RankingBox{
+    background-color: rgba(255,255,255,0.5);
+    width: auto;
+    height: auto;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    border-bottom: 1px solid #8492A6;
+    border-radius: 5px;
+}
+
